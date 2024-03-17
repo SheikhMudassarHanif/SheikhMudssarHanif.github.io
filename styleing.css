@@ -1,0 +1,265 @@
+
+/* 
+.flexcontainer{position: fixed;
+z-index: 1000;
+} */
+
+.shoppingcart{
+    position: fixed;
+    z-index: 1000;
+}
+
+
+nav {
+    position: fixed;
+    background-color: #ce7929;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    z-index: 1000;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-left: 20px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+#logo {
+    color: white;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    animation: fade 10s infinite;
+}
+
+#image1 {
+    animation-delay: 0s;
+}
+
+#image2 {
+    animation-delay: 5s;
+}
+
+#image3 {
+    animation-delay: 10s;
+}
+
+@keyframes fade {
+    0%, 100% {
+        opacity: 0;
+    }
+    33.33%, 66.66% {
+        opacity: 1;
+    }
+}
+#specials{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    
+  }
+
+.pizza-specials {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.col {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 25px;
+    padding: 15px;
+    text-align: center;
+    max-width: 300px;
+}
+
+.col img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+.col:hover {
+    transform: rotate(360deg);
+    transition: transform 2s;
+}
+
+.contact-form {
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ca701b;
+    color: white;
+}
+
+.reviews {
+    color: #999;
+    font-weight: lighter;
+}
+
+.testimonials {
+    text-align: center;
+}
+
+.cta {
+    text-align: center;
+    margin-top: 50px;
+}
+
+form {
+    text-align: center;
+    padding: 20px;
+}
+
+.texts {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+#message {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    height: 70px;
+    margin-left: 0px;
+    border: none;
+}
+
+#username, #email, #phone {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    width: 500px;
+    height: 25px;
+    border: none;
+}
+
+.btn {
+    background-color: rgb(103, 173, 103);
+    width: 90px;
+    height: 30px;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#msg {
+    text-align: left;
+    margin-bottom: 5px;
+    margin-left: -400px;
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+}
+
+.three-columns {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.columns {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(200, 200, 200, 0.5);
+    padding: 20px;
+    max-width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#pizza2:hover{
+    transition: transform 2s;
+}
+#pizza2:hover {
+    transform: rotateY(180deg);
+}
+
+
+#pizza1,#pizza3{
+    transition: transform 2s;
+}
+#pizza1:hover,#pizza3:hover {
+    transform: rotate(360deg);
+}
+
+
+.flexcontainer{
+    display: flex;
+    flex-direction: row;
+    background-color: orange;
+    color:rgb(0, 0, 0);
+    padding-left: 6mm;
+    
+    
+    }
+    
+    #opt1{margin-left: 25cm;}
+    
+    #opt2{margin-left: 5mm;
+    
+    }
+    
+    a:link{
+        color:rgb(0, 0, 0);
+    
+    
+    }
+    
+    a:visited{
+        color:rgb(0, 0, 0);
+    }
+    
+    #opt3{padding-left: 5mm; 
+        text-decoration: none;
+        text-decoration-color: rgb(0, 0, 0);;
+    }
+    #opt4{margin-left: 5mm;}
+    
+    
+    
+    .shoppingcart{
+        padding-top: 6mm;
+        padding-left: 4mm;
+        width: 5mm;
+        height: 5mm;
+        mix-blend-mode: darken;
+    
+    }
+    
